@@ -9,6 +9,7 @@ const RoomJoinPage = () => {
   
 const handleTextFieldChange = (e) => {
     setRoomCode(e.target.value);
+    setError("");
   }
 
 const roomButtonPressed = () => {
